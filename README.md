@@ -4,8 +4,7 @@
 2. Create concept of working by drawing diagram (collaborate with your team)
 Diagram can be created as in any specific tool as by drawing on a paper or dashboard (in second case just make a photo)
 3. Clone the repo:
-     https link: https://github.com/MNT-Lab/git-tasks 
-     	     ssh link: git@github.com:MNT-Lab/git-tasks.git 
+     https link: https://github.com/MNT-Lab/git-tasks.git 
            
 4. Create own branch locally by pattern (from master, can be done by one of team member):
 (First char of name + surname of first student)-(First char of name + surname of second student)
