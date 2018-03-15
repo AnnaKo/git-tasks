@@ -26,4 +26,5 @@ b) Server should be run under ‘jenkins’ user and started from init script as
 c) JENKINS_HOME=/opt/jenkins/master
 d) JENKINS_DIR=/opt/jenkins/bin  ( <- .war is here)
 e) Closed by Nginx and available by link http://jenkins
+
 Expected different commits here from each of team member. For example someone was working on init script, someone on VM configuration and etc.., every feature should be developed in own feature branch with opened pull request to team branch and merged to it at the end. 
