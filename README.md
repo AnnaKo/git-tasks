@@ -18,13 +18,14 @@ Expected different commits here from each of team member. For example someone wa
 
 7. Create Vagrantfile 
 
-Vagrantfile should include :
+Vagrantfile should include:
+
 Configuration of VM
 Provisioning script:
-a) Jenkins installed to folder /opt/jenkins/
-b) Server should be run under ‘jenkins’ user and started from init script as service
-c) JENKINS_HOME=/opt/jenkins/master
-d) JENKINS_DIR=/opt/jenkins/bin  ( <- .war is here)
-e) Closed by Nginx and available by link http://jenkins
+1. Jenkins installed to folder /opt/jenkins/
+2. Server should be run under ‘jenkins’ user and started from init script as service
+3. JENKINS_HOME=/opt/jenkins/master
+4. JENKINS_DIR=/opt/jenkins/bin  ( <- .war is here)
+5. Closed by Nginx and available by link http://jenkins
 
 Expected different commits here from each of team member. For example someone was working on init script, someone on VM configuration and etc.., every feature should be developed in own feature branch with opened pull request to team branch and merged to it at the end. 
